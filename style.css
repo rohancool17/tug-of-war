@@ -140,14 +140,52 @@ body, html {
     transform: translateX(-50%) scale(0.95);
 }
 
+.intro-banner-patch {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    width: 80%;
+    height: 15%;
+    background-color: #fbe5d8; /* Peach color to cover baked text */
+    z-index: 5;
+}
+
 .intro-dynamic-text {
     position: absolute;
-    left: 61.5%; 
-    top: 28.5%;  
-    color: #322f78;
-    font-size: 2.2rem;
+    top: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     font-family: var(--font-heading);
     font-weight: bold;
+    z-index: 10;
+}
+
+.team-red {
+    color: #e54125;
+    font-size: 2.2rem;
+    margin-right: 20px;
+    border-bottom: 2px solid #e54125;
+    padding-bottom: 5px;
+}
+
+.vs-text {
+    color: black;
+    font-size: 4rem;
+    font-style: italic;
+    text-shadow: 2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white;
+    margin: 0 10px;
+}
+
+.team-blue {
+    color: #322f78;
+    font-size: 2.2rem;
+    margin-left: 20px;
+    border-bottom: 2px solid #322f78;
+    padding-bottom: 5px;
 }
 
 .intro-instructions {
