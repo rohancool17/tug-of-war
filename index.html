@@ -11,6 +11,8 @@
 </head>
 <body>
     <div id="game-container">
+        <!-- Global Logo Hider -->
+        <div class="logo-patch" style="z-index: 100;"></div>
         
         <!-- Screen 1: Login Screen -->
         <div id="login-screen" class="screen">
@@ -33,7 +35,6 @@
 
         <!-- Screen 3: Description Screen -->
         <div id="description-screen" class="screen hidden">
-            <div class="logo-patch"></div>
             <button id="desc-next-button" class="image-button next-btn">
                 <img src="assets/NEW NEXT BUTTON.png" alt="Next">
             </button>
@@ -41,7 +42,6 @@
 
         <!-- Screen 4: Game Intro Screen -->
         <div id="intro-screen" class="screen hidden">
-            <div class="logo-patch"></div>
             <div class="intro-dynamic-text">
                 <span id="intro-hcp-name"></span>
             </div>
