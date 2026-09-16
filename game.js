@@ -77,7 +77,7 @@ addTapListener(hcpSubmitButton, () => {
     descriptionScreen.classList.remove('hidden');
 });
 
-addTapListener(descNextButton, () => {
+addTapListener(descriptionScreen, () => {
     descriptionScreen.classList.add('hidden');
     introHcpName.textContent = hcpName;
     introScreen.classList.remove('hidden');

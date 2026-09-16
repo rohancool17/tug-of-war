@@ -38,7 +38,7 @@ body, html {
 /* Backgrounds for Screens */
 #login-screen { background: url('assets/Sign in page.png') no-repeat center center; background-size: cover; }
 #hcp-screen { background: url('assets/BG.png') no-repeat center center; background-size: cover; }
-#description-screen { background: url('assets/Desciption page.png') no-repeat center center; background-size: cover; }
+#description-screen { background: url('assets/Desciption page.png') no-repeat center center; background-size: cover; cursor: pointer; }
 #intro-screen { background: url('assets/game intro page.png') no-repeat center center; background-size: cover; }
 #game-screen { background: url('assets/game page.png') no-repeat center center; background-size: cover; }
 #end-screen { background: url('assets/last page.png') no-repeat center center; background-size: cover; }
