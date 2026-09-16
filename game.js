@@ -61,7 +61,7 @@ function addTapListener(el, callback) {
 }
 
 addTapListener(loginButton, () => {
-    if (empCodeInput.value.trim() === 'demo' && passwordInput.value.trim() === 'demo') {
+    if (empCodeInput.value.trim() === 'admin' && passwordInput.value.trim() === 'admin') {
         loginError.classList.add('hidden');
         loginScreen.classList.add('hidden');
         hcpScreen.classList.remove('hidden');
