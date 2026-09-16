@@ -157,8 +157,8 @@ function update() {
     // AI constant pull (Force decreases score)
     score -= aiForce;
 
-    // Player Pull (Only if all 3 buttons are pressed)
-    if (isBtn1Down && isBtn2Down && isBtn3Down) {
+    // Player Pull (If ANY button is pressed)
+    if (isBtn1Down || isBtn2Down || isBtn3Down) {
         score += playerPullPower;
         
         // Add tension to characters visuals? (optional)
