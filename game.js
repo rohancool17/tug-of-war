@@ -146,6 +146,11 @@ function startGame() {
 function endGame(winner) {
     isGameActive = false;
     gameScreen.classList.add('hidden');
+    
+    // Set the doctor's name on the end screen
+    const endHcpName = document.getElementById('end-hcp-name');
+    if(endHcpName) endHcpName.textContent = hcpName;
+    
     endScreen.classList.remove('hidden');
 }
 

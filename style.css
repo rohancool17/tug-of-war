@@ -290,7 +290,7 @@ body, html {
 
 #restart-button {
     position: absolute;
-    bottom: 20%;
+    bottom: 35%; /* Moved up so it doesn't overlap the logo */
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
@@ -298,6 +298,16 @@ body, html {
 }
 #restart-button:active {
     transform: translateX(-50%) scale(0.95);
+}
+
+.end-dynamic-text {
+    position: absolute;
+    left: 73%; /* Align next to the '&' symbol */
+    top: 40.5%;  /* Align with 'Combination of Tazloc Trio &' */
+    color: #322f78;
+    font-size: 2.2rem;
+    font-family: var(--font-heading);
+    font-weight: bold;
 }
 
 /* Screen Shake Animation */
