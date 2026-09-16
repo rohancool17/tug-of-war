@@ -309,6 +309,27 @@ body, html {
     font-size: 2.5rem;
     font-family: var(--font-heading);
     font-weight: bold;
+    z-index: 10;
+}
+
+.text-patch {
+    position: absolute;
+    top: 38.5%;
+    left: 45%;
+    width: 35%;
+    height: 6%;
+    background-color: #fce6da; /* Matches the middle peach background */
+    z-index: 5;
+}
+
+.bottom-logo-patch {
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    width: 90%;
+    height: 25%;
+    background-color: #f7cdb4; /* Matches the darker bottom peach background */
+    z-index: 5;
 }
 
 /* Screen Shake Animation */
