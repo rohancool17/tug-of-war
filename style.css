@@ -63,6 +63,18 @@ body, html {
     transform: scale(1.05);
 }
 
+.logo-patch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    height: 80px;
+    background-color: #fbdbcb; /* Peach background color match */
+    z-index: 5;
+    border-radius: 8px;
+    opacity: 0.95;
+}
+
 .login-form, .hcp-form {
     display: flex;
     flex-direction: column;
