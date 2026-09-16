@@ -83,7 +83,7 @@ addTapListener(descriptionScreen, () => {
     introScreen.classList.remove('hidden');
 });
 
-addTapListener(introStartButton, startGame);
+addTapListener(introScreen, startGame);
 
 addTapListener(restartButton, () => {
     endScreen.classList.add('hidden');
